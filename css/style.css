@@ -8,7 +8,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    
+
 }
 
 
@@ -21,7 +21,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
- 
+    height: 150px;
+
 }
 
 nav{
@@ -32,12 +33,14 @@ ul{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    
 }
 
 li{
     list-style: none;
     color: blue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
 
 }
 
@@ -50,9 +53,16 @@ a:hover{
     opacity: 0.5;
 }
 
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;    
+    margin-left: 5%;
+    letter-spacing: 20px;
+}
+
 .logo{
-    width: 200px;
-    height: auto;
+    width: 150px;
+    height: 100%;
     margin-top: 20px;
 }
 
